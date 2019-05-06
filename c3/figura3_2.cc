@@ -155,8 +155,8 @@ public:
 
 int main(void)
 {
-	/*IntSSLNode * p = new IntSSLNode(10);
-	p->proximo = new IntSSLNode(8);
-	p->proximo->proximo = new IntSSLNode(50);*/
+	IntSLList lista;
+	lista.addTopo(20);
+	lista.deletaTopo();
 	return 0;
 }
